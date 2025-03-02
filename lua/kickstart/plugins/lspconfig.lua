@@ -225,7 +225,7 @@ return {
 
         lua_ls = {
           -- cmd = { ... },
-          filetypes = { '.lua' },
+          filetypes = { 'lua' },
           -- capabilities = {},
           settings = {
             Lua = {
