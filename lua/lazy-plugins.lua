@@ -46,6 +46,7 @@ require('lazy').setup({
 
   require 'kickstart/plugins/bufferline',
 
+  require 'kickstart/plugins/dressing',
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.
   --
