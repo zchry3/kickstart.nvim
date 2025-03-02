@@ -211,7 +211,7 @@ return {
       local servers = {
         clangd = {},
         pyright = {},
-        ruff = { settings = { lint = { enable = false } } },
+        ruff = { init_options = { settings = { lint = { enable = false } } } },
         isort = {},
         -- rust_analyzer = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
