@@ -245,6 +245,7 @@ return {
           },
         },
         pyright = {},
+        autopep8 = {},
         ruff = { init_options = { settings = { lint = { enable = false } } } },
         isort = {},
         marksman = {},
