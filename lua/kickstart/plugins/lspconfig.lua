@@ -236,7 +236,7 @@ return {
             '--log=verbose',
             '--header-insertion=iwyu',
             '--completion-style=detailed',
-            '--function-arg-placeholders',
+            '--function-arg-placeholders=0',
           },
           init_options = {
             usePlaceholders = true,
