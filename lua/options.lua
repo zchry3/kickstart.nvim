@@ -66,5 +66,6 @@ vim.g.netrw_liststyle = 3
 
 -- Tab Settings per FileType
 vim.cmd [[autocmd FileType cpp setlocal shiftwidth=2 tabstop=2 expandtab]]
+vim.cmd [[autocmd FileType c setlocal shiftwidth=2 tabstop=2 expandtab]]
 
 -- vim: ts=2 sts=2 sw=2 et
