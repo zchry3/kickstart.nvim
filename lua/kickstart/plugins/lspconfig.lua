@@ -249,7 +249,7 @@ return {
         ruff = { init_options = { settings = { lint = { enable = false } } } },
         isort = {},
         marksman = {},
-        -- rust_analyzer = {},
+        rust_analyzer = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:
